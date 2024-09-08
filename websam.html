@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Complexity Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algorithm Complexity Calculator</h1>
+        <form id="calculator-form">
+            <label for="algorithm">Select Algorithm:</label>
+            <select id="algorithm">
+                <option value="sorting">Sorting</option>
+                <option value="search">Search</option>
+            </select>
+            <label for="complexity-type">Complexity Type:</label>
+            <select id="complexity-type">
+                <option value="big-o">Big O</option>
+                <option value="big-omega">Big Ω</option>
+                <option value="big-theta">Big Θ</option>
+            </select>
+            <button type="button" onclick="calculate()">Calculate</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
