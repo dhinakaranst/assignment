@@ -5,7 +5,6 @@ function calculate() {
 
     // Example logic (you would replace this with real calculations)
     if (algorithm === 'sorting') {
-        if (complexityType === 'big-o') {
             result = 'O(n log n) for Quick Sort';
         } else if (complexityType === 'big-omega') {
             result = 'Ω(n) for Merge Sort in best case';
